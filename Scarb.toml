@@ -14,9 +14,11 @@ assert_macros = "2.11.2"
 
 [[target.starknet-contract]]
 sierra = true
+casm = true
 
 [scripts]
 test = "snforge test"
+fmt = "scarb fmt"
 
 [tool.scarb]
 allow-prebuilt-plugins = ["snforge_std"]

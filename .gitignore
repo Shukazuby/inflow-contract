@@ -3,3 +3,9 @@ target
 snfoundry_trace/
 coverage/
 profile/
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+*.iml
